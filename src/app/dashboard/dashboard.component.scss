@@ -1,0 +1,17 @@
+div {
+    height: 100%;
+    margin: 40px;
+}
+
+.charts {
+    &-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+canvas {
+    width: 50% !important;
+    height: 600px !important;
+}

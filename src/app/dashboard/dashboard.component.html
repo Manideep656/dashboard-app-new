@@ -1,0 +1,8 @@
+<div>
+    <input type="file" (change)="onFileChange($event)" />
+    <div class="charts-section">
+        <canvas baseChart [data]="barChartData" [options]="barChartOptions" [plugins]="barChartPlugins" [type]="barChartType">
+    </canvas>
+        <canvas baseChart [data]="pieChartData" [options]="pieChartOptions" [plugins]="pieChartPlugins" [type]="pieChartType"></canvas>
+    </div>
+</div>
